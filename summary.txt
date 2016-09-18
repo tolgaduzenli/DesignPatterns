@@ -9,3 +9,18 @@ Chapter 1
         7- Most patterns allow some part of system to vary independently of all other parts.
         8- We often try to take what varies in a system and encapsulate it.
         9- Patterns provide a shared language that can maximize the value of your communication with other developers.
+
+    Disadvantages of using subclass to provide specific duck behavior.
+        A. Code is duplicated across subclass. (YES)
+            Cause: same behavior will be in more than one duck class, like flyWithWings. RedDuck and MallardDuck have same behavior.
+        B. Runtime behavior changes are difficult. (YES)
+            Cause: flyWithWings can not be flyWithRocket in the runtime. It should be in another fly method before runtime.
+        C. We can not make duck dance. (NO)
+            Cause: new method in duck class is enough as a dance.
+        D. Hard to gain knowledge of all duck behavior. (YES)
+            Cause: All subclasses have to implement all behaviors to gain those knowledge.
+        E. Ducks can not fly and quack at the same time. (NO)
+            Cause: using fly and quack methods at the same time is enough.
+        F. Changes can unintentionally affect other ducks.
+            Cause: When we add new behavior method in duck class, subclasses have to implement this new method.
+    Key point : Program to interface not an implementation.
