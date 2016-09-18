@@ -1,0 +1,11 @@
+Chapter 1
+    Bullet Points;
+        1- Knowing OO basics does not make you a good designer.
+        2- Good OO designs are reusable, extensible, and maintainable.
+        3- Patterns show you how to build system with good OO design qualities.
+        4- Patterns are proven object oriented experience.
+        5- Patterns dont give you code, they give you general solution to design problems. You apply them to your specific application.
+        6- Patterns are not invented, they are discovered.
+        7- Most patterns allow some part of system to vary independently of all other parts.
+        8- We often try to take what varies in a system and encapsulate it.
+        9- Patterns provide a shared language that can maximize the value of your communication with other developers.
