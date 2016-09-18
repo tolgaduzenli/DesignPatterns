@@ -1,4 +1,4 @@
-package com.design.patterns.Chapter1.client;
+package com.design.patterns.Chapter1.simuduck.client;
 
 /**
  * @author Tolga Duzenli on 18-Sep-2016.

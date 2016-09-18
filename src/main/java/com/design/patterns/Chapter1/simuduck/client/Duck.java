@@ -1,7 +1,7 @@
-package com.design.patterns.Chapter1.client;
+package com.design.patterns.Chapter1.simuduck.client;
 
-import com.design.patterns.Chapter1.fly.FlyBehavior;
-import com.design.patterns.Chapter1.quack.QuackBehavior;
+import com.design.patterns.Chapter1.simuduck.fly.FlyBehavior;
+import com.design.patterns.Chapter1.simuduck.quack.QuackBehavior;
 
 /**
  * @author Tolga Duzenli on 18-Sep-2016.

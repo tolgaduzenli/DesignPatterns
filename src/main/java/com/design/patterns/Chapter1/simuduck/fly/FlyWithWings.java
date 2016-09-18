@@ -1,4 +1,4 @@
-package com.design.patterns.Chapter1.fly;
+package com.design.patterns.Chapter1.simuduck.fly;
 
 /**
  * @author Tolga Duzenli on 18-Sep-2016.
