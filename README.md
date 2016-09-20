@@ -17,4 +17,10 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
               Strategy lets the algorithm vary independetly from client that use it.
 
     Chapter 2 Contains
-        
+        OO Principles
+            * Strive for loosly coupled designs between objects that interact.
+        OO Patterns
+            * Observer defines a one to many dependency between objects so that when one object changes state, all its
+            dependents are notified and update automaticly.
+    Chapter 3 Contains
+    

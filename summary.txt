@@ -24,3 +24,27 @@ Chapter 1
         F. Changes can unintentionally affect other ducks.(YES)
             Cause: When we add new behavior method in duck class, subclasses have to implement this new method.
     Key point : Program to interface not an implementation.
+
+Chapter 2
+    BULLET POINTS
+        1- The Observer Pattern defines a one-to-many relationship between objects.
+        2- Subjects, or as we also know them, Observables, update Observers using a common interface.
+        3- Observers are loosely coupled in that the Observable knows nothing about them, other than that they implement the Observer interface.
+        4- You can push or pull data from the Observable when using the pattern (pull is considered more “correct”).
+        5- Don’t depend on a specific order of notification for your Observers.
+        6- Java has several implementations of the Observer Pattern, including the general purpose java.util.Observable.
+        7- Watch out for issues with the java.util.Observable implementation.
+        8- Don’t be afraid to create your own Observable implementation if needed.
+        9- Swing makes heavy use of the Observer Pattern, as do many GUI frameworks.
+        10- You’ll also find the pattern in many other places, including JavaBeans and RMI.
+    Disadvantages of using concrete class instead of subject and observer interface.
+        A.We are coding to concrete implementations, not interfaces. (YES)
+        B.For every new display element we need to alter code. (YES)
+        C.We have no way to add display elements at run time. (YES)
+        D.The display elements don’t implement a common interface. (NO)
+        E.We haven’t encapsulated what changes. (YES)
+        F.We are violating encapsulation of the WeatherData class. (NO)
+    DESIGN PRINCIPLE CHALLENGE SOLUTION
+        Identify the aspects of your application that vary and separate them from what stays the same.
+            The thing that varies in the Observer Pattern is the state of the Subject and the number and types of Observers. With this pattern, you can
+        vary the objects that are dependent on the state of the Subject, without having to change that Subject. That’s called planning ahead!
