@@ -21,6 +21,6 @@ Chapter 1
             Cause: All subclasses have to implement all behaviors to gain those knowledge.
         E. Ducks can not fly and quack at the same time. (NO)
             Cause: using fly and quack methods at the same time is enough.
-        F. Changes can unintentionally affect other ducks.
+        F. Changes can unintentionally affect other ducks.(YES)
             Cause: When we add new behavior method in duck class, subclasses have to implement this new method.
     Key point : Program to interface not an implementation.
