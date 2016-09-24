@@ -23,4 +23,8 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
             * Observer defines a one to many dependency between objects so that when one object changes state, all its
             dependents are notified and update automaticly.
     Chapter 3 Contains
-    
+        OO Principles
+            * Class should be open for extension but closed for modification. Open Close Principle.
+        OO Patterns
+            * Attached additional responsibilities to an object dynamically. Decorators provide a flexible alternative to sub-classing for extending functionality.
+    Chapter 4 Contains
