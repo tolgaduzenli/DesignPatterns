@@ -28,3 +28,10 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
         OO Patterns
             * Attached additional responsibilities to an object dynamically. Decorators provide a flexible alternative to sub-classing for extending functionality.
     Chapter 4 Contains
+        OO Principles
+            * Depend on abstraction, do not depent on concrete classes.
+        OO Patterns
+            * Abstract Factory: Provides an interface for creating families of related or depentent objects without
+             specifying thier concrete class.
+            * Factory Method: Define an interface for creating an object, but let subclasses decide which class to instantiate.
+             Factory method lets a class defer instantiation to the subclasses.
