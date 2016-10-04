@@ -71,7 +71,7 @@ Chapter 3 (Decorator Patter)
 Chapter 4 (Factory & Abstract Factory Pattern)
     BULLET POINTS
         1- All factories encapsulate object creation.
-        2- Simple Factory, while not a bona fide design pattern, is a simple way to decouple your clients from concrete classes.
+        2- Simple Factory, while not a bona-fide design pattern, is a simple way to decouple your clients from concrete classes.
         3- Factory Method relies on inheritance: object creation is delegated to subclasses, which implement the factory method to create objects.
         4- Abstract Factory relies on object composition: object creation is implemented in methods exposed in the factory interface.
         5- All factory patterns promote loose coupling by reducing the dependency of your application on concrete classes.
@@ -79,3 +79,25 @@ Chapter 4 (Factory & Abstract Factory Pattern)
         7- The intent of Abstract Factory is to create families of related objects without having to depend on their concrete classes.
         8- The Dependency Inversion Principle guides us to avoid dependencies on concrete types and to strive for abstractions.
         9- Factories are a powerful technique for coding to abstractions, not concrete classes.
+
+Chapter 5 (Singleton Pattern)
+    BULLET POINTS
+        1- The Singleton Pattern ensures you have at most one instance of a class in your application.
+        2- The Singleton Pattern also provides a global access point to that instance.
+        3- Java’s implementation of the Singleton Pattern makes use of a private constructor, a static method combined with a static variable.
+        4- Examine your performance and resource constraints and carefully choose an appropriate Singleton implementation for multithreaded applications (and we should consider all applications multithreaded!).
+        5- Beware of the double-checked locking implementation; it is not thread-safe in versions before Java 2, version 5.
+        6- Be careful if you are using multiple class loaders; this could defeat the Singleton implementation and result in multiple instances.
+        7- If you are using a JVM earlier than 1.2, you’ll need to create a registry of Singletons to defeat the garbage collector.
+
+    MultiThreading
+        Synchronize the getInstance() method:
+            A straightforward technique that is guaranteed to work. We don’t seem to have
+            any performance concerns with the chocolate boiler, so this would be a good choice.
+        Use eager instantiation:
+            We are always going to instantiate the chocolate boiler in our code, so statically initializing
+            the instance would cause no concerns. This solution would work as well as the synchronized
+            method, although perhaps be less obvious to a developer familiar with the standard pattern.
+        Double-checked locking:
+            Given we have no performance concerns, double-checked locking seems like overkill. In
+            addition, we’d have to ensure that we are running at least Java
