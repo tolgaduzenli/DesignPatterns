@@ -101,3 +101,14 @@ Chapter 5 (Singleton Pattern)
         Double-checked locking:
             Given we have no performance concerns, double-checked locking seems like overkill. In
             addition, we’d have to ensure that we are running at least Java
+
+Chapter 6 (Command Pattern)
+    BULLET POINTS
+        1- The Command Pattern decouples an object making a request from the one that knows how to perform it.
+        2- A Command object is at the center of this decoupling and encapsulates a receiver with an action (or set of actions) .
+        3- An invoker makes a request of a Command object by calling its execute() method, which invokes those actions on the receiver.
+        4- Invokers can be parameterized with Commands, even dynamically at runtime.
+        5- Commands may support undo by implementing an undo method that restores the object to its previous state before the execute() method was last called.
+        6- Macro Commands are a simple extension of Command that allow multiple commands to be invoked. Likewise, Macro Commands can easily support undo().
+        7- In practice, it is not uncommon for “smart” Command objects to implement the request themselves rather than delegating to a receiver.
+        8- Commands may also be used to implement logging and transactional systems.

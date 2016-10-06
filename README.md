@@ -38,3 +38,7 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
     Chapter 5 Singleton Pattern
         OO Patterns
             * Ensure a class only has one instance and provide a globall point of access to it.
+    Chapter 6 Command Pattern
+        OO Pattern
+            * Encapsulate a request as an object, there by letting you parameterize client with different request,
+            queue or long request, and support unduable operations.
