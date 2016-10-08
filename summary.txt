@@ -112,3 +112,15 @@ Chapter 6 (Command Pattern)
         6- Macro Commands are a simple extension of Command that allow multiple commands to be invoked. Likewise, Macro Commands can easily support undo().
         7- In practice, it is not uncommon for “smart” Command objects to implement the request themselves rather than delegating to a receiver.
         8- Commands may also be used to implement logging and transactional systems.
+
+Chapter 7 (Adapter and Facade Pattern)
+    BULLET POINTS
+        1- When you need to use an existing class and its interface is not the one you need, use an adapter.
+        2- When you need to simplify and unify a large interface or complex set of interfaces, use a facade.
+        3- An adapter changes an interface into one a client expects.
+        4- A facade decouples a client from a complex subsystem.
+        5- Implementing an adapter may require little work or a great deal of work depending on the size and complexity of the target interface.
+        6- Implementing a facade requires that we compose the facade with its subsystem and use delegation to perform the work of the facade.
+        7- There are two forms of the Adapter Pattern: object and class adapters. Class adapters require multiple inheritance.
+        8- You can implement more than one facade for a subsystem.
+        9- An adapter wraps an object to change its interface, a decorator wraps an object to add new behaviors and responsibilities, and a facade “wraps” a set of objects to simplify.

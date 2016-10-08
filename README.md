@@ -42,3 +42,10 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
         OO Pattern
             * Encapsulate a request as an object, there by letting you parameterize client with different request,
             queue or long request, and support unduable operations.
+    Chapter 7 Adapter and Facade Pattern
+        OO Pattern
+            * Adapter, Converts the interface of a class into another interface client expects.
+            Lets classes work together that could not otherwise because of incompatiable interface.
+            * Facade, Provides a unified interface to a set of interfaces in a subsystem.
+            Facade defines higher-level interface that makes the subsystem easier to use.
+    Chapter 8 
