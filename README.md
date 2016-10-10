@@ -48,4 +48,10 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
             Lets classes work together that could not otherwise because of incompatiable interface.
             * Facade, Provides a unified interface to a set of interfaces in a subsystem.
             Facade defines higher-level interface that makes the subsystem easier to use.
-    Chapter 8 
+    Chapter 8 Template Pattern
+        OO Principles
+            * Dont call us, we will call you; superclasses are running the show, so let them call the subclasses
+             when they are needed.
+        OO Pattern
+            * Define the skeleton of an algorithm in an operation, deffering some steps to subclasses.
+              Template method lets subclasses redefined certain steps of an algorithm without changing the algorithm's strategy.
