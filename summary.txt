@@ -137,3 +137,23 @@ Chapter 8 (Template Pattern)
         8- You’ll see lots of uses of the Template Method Pattern in real-world code, but don’t expect it all (like any pattern) to be designed “by the book.”
         9- The Strategy and Template Method Patterns both encapsulate algorithms, one by inheritance and one by composition.
         10- The Factory Method is a specialization of Template Method.
+
+Chapter 9 (Iterator and Composite Pattern)
+    BULLET POINTS
+        1- An Iterator allows access to an aggregate’s elements without exposing its internal structure.
+        2- An Iterator takes the job of iterating over an aggregate and encapsulates it in another object.
+        3- When using an Iterator, we relieve the aggregate of the responsibility of supporting operations for traversing its data.
+        4- An Iterator provides a common interface for traversing the items of an aggregate, allowing you to use polymorphism when writing code that makes use of the items of the aggregate.
+        5- We should strive to assign only one responsibility to each class.
+        6- The Composite Pattern provides a structure to hold both individual objects and composites.
+        7- The Composite Pattern allows clients to treat composites and individual objects uniformly.
+        8- A Component is any object in a Composite structure. Components may be other composites or leaf nodes.
+        9- There are many design tradeoffs in implementing Composite. You need to balance transparency and safety with your needs.
+
+    Pattern description matches
+        Strategy; Encapsulate interchangeable behaviours and uses delegation to decide which one to use.
+        Adapter; Change the interface of one or more classes.
+        Iterator; Provides a way to traverse a collection of objects without exposing the collection's implementation.
+        Facade; Simplifies the interface of a group of classes.
+        Composite; Clients treat collections of objects and individual objects uniformly.
+        Observer; Allows a group of objects to notified when some state changes.

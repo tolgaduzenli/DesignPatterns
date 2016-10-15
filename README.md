@@ -55,3 +55,11 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
         OO Pattern
             * Define the skeleton of an algorithm in an operation, deffering some steps to subclasses.
               Template method lets subclasses redefined certain steps of an algorithm without changing the algorithm's strategy.
+    Chapter 9 Iterator and Composite Pattern
+        OO Principles
+            * A class should have only one reason to change.
+        OO Pattern
+            * Iterator; Provide a way to access the elements of an aggregate
+                object sequntially without exposing its underliying representation.
+              Composite; Compose objects into tree structure to represent part-whole hierarchies.
+              Composite lets clients treat individual objects and compositions of objects uniformaly. 
