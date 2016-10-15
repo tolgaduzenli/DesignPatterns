@@ -157,3 +157,16 @@ Chapter 9 (Iterator and Composite Pattern)
         Facade; Simplifies the interface of a group of classes.
         Composite; Clients treat collections of objects and individual objects uniformly.
         Observer; Allows a group of objects to notified when some state changes.
+
+Chapter 10 State Pattern
+    BULLET POINTS
+        1- The State Pattern allows an object to have many different behaviors that are based on its internal state.
+        2- Unlike a procedural state machine, the State Pattern represents state as a full-blown class.
+        3- The Context gets its behavior by delegating to the current state object it is composed with.
+        4- By encapsulating each state into a class, we localize any changes that will need to be made.
+        5- The State and Strategy Patterns have the same class diagram, but they differ in intent.
+        6- Strategy Pattern typically configures Context classes with a behavior or algorithm.
+        7- State Pattern allows a Context to change its behavior as the state of the Context changes.
+        8- State transitions can be controlled by the State classes or by the Context classes.
+        9- Using the State Pattern will typically result in a greater number of classes in your design.
+        10- State classes may be shared among Context instances.

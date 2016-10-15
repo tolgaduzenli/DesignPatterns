@@ -62,4 +62,8 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
             * Iterator; Provide a way to access the elements of an aggregate
                 object sequntially without exposing its underliying representation.
               Composite; Compose objects into tree structure to represent part-whole hierarchies.
-              Composite lets clients treat individual objects and compositions of objects uniformaly. 
+              Composite lets clients treat individual objects and compositions of objects uniformaly.
+    Chapter 10 State Pattern
+        OO Pattern
+            * Allow an object to alter its behavior when its internal state changes.
+            The object will apppear to change its class
