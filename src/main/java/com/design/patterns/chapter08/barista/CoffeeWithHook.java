@@ -1,4 +1,4 @@
-package com.design.patterns.chapter8.barista;
+package com.design.patterns.chapter08.barista;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package com.design.patterns.chapter8.barista;
+package com.design.patterns.chapter08.barista;
 
 public class BeverageTestDrive {
 	public static void main(String[] args) {

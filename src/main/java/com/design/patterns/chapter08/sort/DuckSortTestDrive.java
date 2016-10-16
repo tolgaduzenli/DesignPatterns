@@ -1,4 +1,4 @@
-package com.design.patterns.chapter8.sort;
+package com.design.patterns.chapter08.sort;
 
 import java.util.Arrays;
 

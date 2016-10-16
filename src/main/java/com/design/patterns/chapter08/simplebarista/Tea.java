@@ -1,4 +1,4 @@
-package com.design.patterns.chapter8.simplebarista;
+package com.design.patterns.chapter08.simplebarista;
 
 public class Tea {
  

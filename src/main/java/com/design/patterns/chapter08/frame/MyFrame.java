@@ -1,4 +1,4 @@
-package com.design.patterns.chapter8.frame;
+package com.design.patterns.chapter08.frame;
 
 import java.awt.*;
 import javax.swing.*;
