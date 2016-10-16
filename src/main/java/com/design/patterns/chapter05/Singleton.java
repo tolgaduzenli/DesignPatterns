@@ -1,4 +1,4 @@
-package com.design.patterns.chapter5;
+package com.design.patterns.chapter05;
 
 /**
  * @author Tolga Duzenli on 04-Oct-2016.
