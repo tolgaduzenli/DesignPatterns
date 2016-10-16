@@ -1,6 +1,6 @@
-package com.design.patterns.chapter6.commands;
+package com.design.patterns.chapter06.commands;
 
-import com.design.patterns.chapter6.devices.Hottub;
+import com.design.patterns.chapter06.devices.Hottub;
 
 /**
  * @author Tolga Duzenli on 06-Oct-2016.

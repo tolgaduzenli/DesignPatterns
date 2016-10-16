@@ -1,4 +1,4 @@
-package com.design.patterns.chapter6.devices;
+package com.design.patterns.chapter06.devices;
 
 /**
  * @author Tolga Duzenli on 06-Oct-2016.

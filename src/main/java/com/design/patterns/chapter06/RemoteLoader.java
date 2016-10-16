@@ -1,10 +1,10 @@
-package com.design.patterns.chapter6;
+package com.design.patterns.chapter06;
 
-import com.design.patterns.chapter6.commands.*;
-import com.design.patterns.chapter6.devices.CeilingFan;
-import com.design.patterns.chapter6.devices.GarageDoor;
-import com.design.patterns.chapter6.devices.Light;
-import com.design.patterns.chapter6.devices.Stereo;
+import com.design.patterns.chapter06.commands.*;
+import com.design.patterns.chapter06.devices.CeilingFan;
+import com.design.patterns.chapter06.devices.GarageDoor;
+import com.design.patterns.chapter06.devices.Light;
+import com.design.patterns.chapter06.devices.Stereo;
 
 /**
  * @author Tolga Duzenli on 06-Oct-2016.

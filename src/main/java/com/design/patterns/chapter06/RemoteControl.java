@@ -1,7 +1,7 @@
-package com.design.patterns.chapter6;
+package com.design.patterns.chapter06;
 
-import com.design.patterns.chapter6.commands.Command;
-import com.design.patterns.chapter6.commands.NoCommand;
+import com.design.patterns.chapter06.commands.Command;
+import com.design.patterns.chapter06.commands.NoCommand;
 
 /**
  * @author Tolga Duzenli on 06-Oct-2016.

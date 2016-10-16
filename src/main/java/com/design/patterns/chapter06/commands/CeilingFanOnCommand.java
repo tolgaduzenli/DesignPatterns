@@ -1,6 +1,6 @@
-package com.design.patterns.chapter6.commands;
+package com.design.patterns.chapter06.commands;
 
-import com.design.patterns.chapter6.devices.CeilingFan;
+import com.design.patterns.chapter06.devices.CeilingFan;
 
 /**
  * @author Tolga Duzenli on 06-Oct-2016.

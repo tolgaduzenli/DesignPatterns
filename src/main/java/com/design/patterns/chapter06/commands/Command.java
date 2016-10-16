@@ -1,4 +1,4 @@
-package com.design.patterns.chapter6.commands;
+package com.design.patterns.chapter06.commands;
 
 /**
  * @author Tolga Duzenli on 06-Oct-2016.
