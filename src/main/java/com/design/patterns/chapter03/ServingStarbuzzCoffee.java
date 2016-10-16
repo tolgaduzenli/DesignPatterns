@@ -1,12 +1,12 @@
-package com.design.patterns.chapter3;
+package com.design.patterns.chapter03;
 
-import com.design.patterns.chapter3.beverages.Beverage;
-import com.design.patterns.chapter3.beverages.DarkRoast;
-import com.design.patterns.chapter3.beverages.Espresso;
-import com.design.patterns.chapter3.beverages.HouseBlend;
-import com.design.patterns.chapter3.condiments.Mocha;
-import com.design.patterns.chapter3.condiments.Soy;
-import com.design.patterns.chapter3.condiments.Whip;
+import com.design.patterns.chapter03.beverages.Beverage;
+import com.design.patterns.chapter03.beverages.DarkRoast;
+import com.design.patterns.chapter03.beverages.Espresso;
+import com.design.patterns.chapter03.beverages.HouseBlend;
+import com.design.patterns.chapter03.condiments.Mocha;
+import com.design.patterns.chapter03.condiments.Soy;
+import com.design.patterns.chapter03.condiments.Whip;
 
 /**
  * @author Tolga Duzenli on 23-Sep-2016.

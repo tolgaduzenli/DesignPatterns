@@ -1,15 +1,16 @@
-package com.design.patterns.chapter3.beverages;
+package com.design.patterns.chapter03.beverages;
 
 /**
  * @author Tolga Duzenli on 23-Sep-2016.
  */
-public class Espresso extends Beverage {
+public class DarkRoast extends Beverage {
 
     private final String description;
 
-    public Espresso() {
-        this.description = "Espresso";
+    public DarkRoast() {
+        this.description = "DarkRoast";
     }
+
 
     @Override
     public String getDescription() {
@@ -18,6 +19,6 @@ public class Espresso extends Beverage {
 
     @Override
     public double cost() {
-        return 1.99;
+        return 0.99;
     }
 }

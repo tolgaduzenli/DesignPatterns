@@ -1,4 +1,4 @@
-package com.design.patterns.chapter3.beverages;
+package com.design.patterns.chapter03.beverages;
 
 /**
  * @author Tolga Duzenli on 23-Sep-2016.
