@@ -1,6 +1,6 @@
-package com.design.patterns.chapter2.observer;
+package com.design.patterns.chapter02.observer;
 
-import com.design.patterns.chapter2.subject.Subject;
+import com.design.patterns.chapter02.subject.Subject;
 
 /**
  * @author Tolga Duzenli on 20-Sep-2016.

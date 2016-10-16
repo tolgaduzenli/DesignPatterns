@@ -1,6 +1,6 @@
-package com.design.patterns.chapter2.subject;
+package com.design.patterns.chapter02.subject;
 
-import com.design.patterns.chapter2.observer.Observer;
+import com.design.patterns.chapter02.observer.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

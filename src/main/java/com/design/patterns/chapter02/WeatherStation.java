@@ -1,7 +1,7 @@
-package com.design.patterns.chapter2;
+package com.design.patterns.chapter02;
 
-import com.design.patterns.chapter2.observer.CurrentConditionDisplay;
-import com.design.patterns.chapter2.subject.WeatherData;
+import com.design.patterns.chapter02.observer.CurrentConditionDisplay;
+import com.design.patterns.chapter02.subject.WeatherData;
 
 /**
  * @author Tolga Duzenli on 20-Sep-2016.
