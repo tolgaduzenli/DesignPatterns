@@ -1,4 +1,4 @@
-package com.design.patterns.chapter7.adapter.enumiterator;
+package com.design.patterns.chapter07.adapter.enumiterator;
 
 import java.util.ArrayList;
 import java.util.Arrays;

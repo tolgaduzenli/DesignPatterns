@@ -1,4 +1,4 @@
-package com.design.patterns.chapter7.facade;
+package com.design.patterns.chapter07.facade;
 
 public class HomeTheaterFacade {
 	Amplifier amp;

@@ -1,4 +1,4 @@
-package com.design.patterns.chapter7.adapter.ducks;
+package com.design.patterns.chapter07.adapter.ducks;
 
 /**
  * @author Tolga Duzenli on 07-Oct-2016.

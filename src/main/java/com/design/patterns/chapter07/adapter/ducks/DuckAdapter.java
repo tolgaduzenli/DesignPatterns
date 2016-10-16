@@ -1,4 +1,4 @@
-package com.design.patterns.chapter7.adapter.ducks;
+package com.design.patterns.chapter07.adapter.ducks;
 
 import java.util.Random;
 
