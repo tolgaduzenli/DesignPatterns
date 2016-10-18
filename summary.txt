@@ -170,3 +170,15 @@ Chapter 10 State Pattern
         8- State transitions can be controlled by the State classes or by the Context classes.
         9- Using the State Pattern will typically result in a greater number of classes in your design.
         10- State classes may be shared among Context instances.
+
+Chapter 11 Proxy Pattern
+    BULLET POINTS
+        1- The Proxy Pattern provides a representative for another object in order to control the client’s access to it. There are a number of ways it can manage that access.
+        2- A Remote Proxy manages interaction between a client and a remote object.
+        3- A Virtual Proxy controls access to an object that is expensive to instantiate.
+        4- A Protection Proxy controls access to the methods of an object based on the caller.
+        5- Many other variants of the Proxy Pattern exist including caching proxies, synchronization proxies, firewall proxies, copy-on-write proxies, and so on.
+        6- Proxy is structurally similar to Decorator, but the two differ in their purpose.
+        7- The Decorator Pattern adds behavior to an object, while a Proxy controls access.
+        8- Java’s built-in support for Proxy can build a dynamic proxy class on demand and dispatch all calls on it to a handler of your choosing.
+        9- Like any wrapper, proxies will increase the number of classes and objects in your designs.

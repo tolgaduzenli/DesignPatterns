@@ -15,7 +15,6 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
         Object Oriented Patterns
             * Strategy Pattern : define a family of algorthms, encapsulate each one, and makes them interchangeable.
               Strategy lets the algorithm vary independetly from client that use it.
-
     Chapter 2 Observer Pattern
         OO Principles
             * Strive for loosly coupled designs between objects that interact.
@@ -67,3 +66,6 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
         OO Pattern
             * Allow an object to alter its behavior when its internal state changes.
             The object will apppear to change its class
+    Chapter 11 Proxy Pattern
+        OO Pattern
+            * Provide a surrogate or placeholder for another object to control access to it.
