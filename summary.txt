@@ -193,3 +193,15 @@ Chapter 12 Compound Patterns
         6- The Adapter Pattern can be used to adapt a new model to an existing view and controller.
         7- Model 2 is an adaptation of MVC for web applications.
         8- In Model 2, the controller is implemented as a servlet and JSP & HTML implement the view.
+
+Chapter 13
+    BULLET POINTS
+        1- Let Design Patterns emerge in your designs; don’t force them in just for the sake of using a pattern.
+        2- Design Patterns aren’t set in stone; adapt and tweak them to meet your needs.
+        3- Always use the simplest solution that meets your needs, even if it doesn’t include a pattern.
+        4- Study Design Patterns catalogs to familiarize yourself with patterns and the relationships among them.
+        5- Pattern classifications (or categories) provide groupings for patterns. When they help, use them.
+        6- You need to be committed to be a patterns writer: it takes time and patience, and you have to be willing to do lots of refinement.
+        7- Remember, most patterns you encounter will be adaptations of existing patterns, not new patterns.
+        8- Build your team’s shared vocabulary. This is one of the most powerful benefits of using patterns.
+        9- Like any community, the patterns community has its own lingo. Don’t let that hold you back. Having read this book, you now know most of it.
