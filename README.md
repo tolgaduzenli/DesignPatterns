@@ -69,3 +69,6 @@ Practice of Design Patterns from Head First (Eric Freeman, Elisabeth Robson, Ber
     Chapter 11 Proxy Pattern
         OO Pattern
             * Provide a surrogate or placeholder for another object to control access to it.
+    Chapter 12 Compound Patterns
+        OO Pattern
+            * A compound pattern combines two or more patterns into a solution that solves a reccuring or general problem.

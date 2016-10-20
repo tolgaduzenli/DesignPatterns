@@ -182,3 +182,14 @@ Chapter 11 Proxy Pattern
         7- The Decorator Pattern adds behavior to an object, while a Proxy controls access.
         8- Java’s built-in support for Proxy can build a dynamic proxy class on demand and dispatch all calls on it to a handler of your choosing.
         9- Like any wrapper, proxies will increase the number of classes and objects in your designs.
+
+Chapter 12 Compound Patterns
+    BULLET POINTS
+        1- The Model View Controller Pattern (MVC) is a compound pattern consisting of the Observer, Strategy and Composite patterns.
+        2- The model makes use of the Observer Pattern so that it can keep observers updated yet stay decoupled from them.
+        3- The controller is the strategy for the view. The view can use different implementations of the controller to get different behavior.
+        4- The view uses the Composite Pattern to implement the user interface, which usually consists of nested components like panels, frames and buttons.
+        5- These patterns work together to decouple the three players in the MVC model, which keeps designs clear and flexible.
+        6- The Adapter Pattern can be used to adapt a new model to an existing view and controller.
+        7- Model 2 is an adaptation of MVC for web applications.
+        8- In Model 2, the controller is implemented as a servlet and JSP & HTML implement the view.
